@@ -42,7 +42,7 @@ img{
     padding-left: 15px ;
     padding-right: 15px;
     margin-left: auto;
-    maqrgin-right: auto;
+    margin-right: auto;
 }
 .section-title{
     font-weight: 700;
@@ -52,6 +52,7 @@ img{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .visually-hidden {
@@ -153,50 +154,52 @@ img{
 
 /*=============== hero ================*/
 
-    .hero{
-        background-color: #2e2f42;
-        max-width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
-        color: #ffffff;
-    }
+.hero {
+    background-color: #2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 
-    .section-hero{
-        padding-top: 188px;
-        padding-bottom: 292px;
-        padding-right: 331px;
-        padding-left: 331px;
-    }
-    .main-title{
+}
+
+.main-title {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    display: block;
     text-align: center;
+    color: #ffffff;
+    margin: 0 auto 48px;
     max-width: 496px;
-    margin-bottom: 48px;
-    }
+}
 
-    .order-button{
+.order-button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background-color: #4d5ae5;
-    border-radius: 4px;
-    padding: 16px 32px; 
     display: block;
-    border: none;
-    min-width: 169px;
-    height:  56px;
     margin: 0 auto;
-    }
+    border-radius: 4px;
+    padding: 16px 32px;
+    min-width: 169px;
+    background: #4d5ae5;
+    border: none;
+}
 
-    .order-button:hover,
-    .order-button:focus{
-        background: #404bbf;
-    }
+.order-button:hover,
+.order-button:focus {
+    background: #404bbf;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    align-items: center;
+}
 
     /* =========features ============*/
 
@@ -227,7 +230,11 @@ margin-bottom: 8px;
 
 .our-team{
     background-color: #f4f4fd;
-    max-width: 1440px;
+    
+}
+
+.section-our-team {
+    max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -251,19 +258,19 @@ margin-bottom: 8px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-top: 32px;
-    padding-left: 16px;
-    padding-right: 16px;
     margin-bottom: 8px;
+}
+
+.our-team-container {
+    padding: 32px 0
 }
 
 .our-team-item-prof {
 font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-padding-left: 16px;
-padding-right: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 /* ===========Our Portfolio================ */
 
